@@ -23,8 +23,8 @@ dependencies:
     specifier: ^18.0.3
     version: 18.0.3
   '@vitejs/plugin-react':
-    specifier: ^3.0.0
-    version: 3.0.0(vite@4.0.3)
+    specifier: ^4.0.0
+    version: 4.0.0(vite@4.0.3)
   compression:
     specifier: ^1.7.4
     version: 1.7.4
@@ -915,16 +915,15 @@ packages:
       '@types/node': 18.11.9
     dev: false
 
-  /@vitejs/plugin-react@3.0.0(vite@4.0.3):
-    resolution: {integrity: sha512-1mvyPc0xYW5G8CHQvJIJXLoMjl5Ct3q2g5Y2s6Ccfgwm45y48LBvsla7az+GkkAtYikWQ4Lxqcsq5RHLcZgtNQ==}
+  /@vitejs/plugin-react@4.0.0(vite@4.0.3):
+    resolution: {integrity: sha512-HX0XzMjL3hhOYm+0s95pb0Z7F8O81G7joUHgfDd/9J/ZZf5k4xX6QAMFkKsHFxaHlf6X7GD7+XuaZ66ULiJuhQ==}
     engines: {node: ^14.18.0 || >=16.0.0}
     peerDependencies:
-      vite: ^4.0.0
+      vite: ^4.2.0
     dependencies:
       '@babel/core': 7.21.4
       '@babel/plugin-transform-react-jsx-self': 7.21.0(@babel/core@7.21.4)
       '@babel/plugin-transform-react-jsx-source': 7.19.6(@babel/core@7.21.4)
-      magic-string: 0.27.0
       react-refresh: 0.14.0
       vite: 4.0.3(@types/node@18.11.9)
     transitivePeerDependencies:
@@ -1489,13 +1488,6 @@ packages:
     resolution: {integrity: sha512-KpNARQA3Iwv+jTA0utUVVbrh+Jlrr1Fv0e56GGzAFOXN7dk/FviaDW8LHmK52DlcH4WP2n6gI8vN1aesBFgo9w==}
     dependencies:
       yallist: 3.1.1
-    dev: false
-
-  /magic-string@0.27.0:
-    resolution: {integrity: sha512-8UnnX2PeRAPZuN12svgR9j7M1uWMovg/CEnIwIG0LFkXSJJe4PdfUGiTGl8V9bsBHFUtfVINcSyYxd7q+kx9fA==}
-    engines: {node: '>=12'}
-    dependencies:
-      '@jridgewell/sourcemap-codec': 1.4.15
     dev: false
 
   /make-error@1.3.6:
