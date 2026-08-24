@@ -1,3 +1,5 @@
+
+
 # vite-plugin-ssr with Tanstack react query
 
 This is a demo of how to use [vite-plugin-ssr](https://vite-plugin-ssr.com/) with [react-query](https://tanstack.com/query/latest/).
@@ -28,7 +30,7 @@ npm install
 
 ### Run dev server
 
-Use the "dev" script from package.json, be sure to have the 3000 port available.
+Use the "dev" script from package.json, be sure to have the 3000 port available (or set the PORT environment variable).
 
 ### Build
 
